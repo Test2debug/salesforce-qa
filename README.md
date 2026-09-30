@@ -31,6 +31,8 @@ Run an org dry run and resolve its diagnostics before the real deployment. The s
 
 ## Configuration and learning work
 
+For a plain-language, end-to-end explanation of the business story, live behavior, demo, and planned features, read [docs/project-walkthrough-hindi.md](docs/project-walkthrough-hindi.md).
+
 See [docs/implementation-plan.md](docs/implementation-plan.md) for the remaining org-specific security, flows, approval, cloud features, and QA scenarios. Feature availability and licenses must be checked in the target org before enabling Experience, Entitlements, or Commerce.
 
 Permission sets add access; they cannot remove rights already granted by a profile. Assign only the appropriate set to each user and review profile grants before using the discount field as a security demonstration.
