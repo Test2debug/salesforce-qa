@@ -1,0 +1,15 @@
+<?xml version='1.0' encoding='utf-8'?>
+<CustomObject xmlns="http://soap.sforce.com/2006/04/metadata">
+    <label>Feedback</label>
+    <pluralLabel>Feedback</pluralLabel>
+    <deploymentStatus>Deployed</deploymentStatus>
+    <sharingModel>Private</sharingModel>
+    <enableActivities>true</enableActivities>
+    <enableReports>true</enableReports>
+    <enableSearch>true</enableSearch>
+    <nameField>
+        <label>Feedback Number</label>
+        <type>AutoNumber</type>
+        <displayFormat>FEE-{0000}</displayFormat>
+    </nameField>
+</CustomObject>

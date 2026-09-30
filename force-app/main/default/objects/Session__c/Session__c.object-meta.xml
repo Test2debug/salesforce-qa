@@ -1,0 +1,15 @@
+<?xml version='1.0' encoding='utf-8'?>
+<CustomObject xmlns="http://soap.sforce.com/2006/04/metadata">
+    <label>Session</label>
+    <pluralLabel>Sessions</pluralLabel>
+    <deploymentStatus>Deployed</deploymentStatus>
+    <sharingModel>ControlledByParent</sharingModel>
+    <enableActivities>true</enableActivities>
+    <enableReports>true</enableReports>
+    <enableSearch>true</enableSearch>
+    <nameField>
+        <label>Session Number</label>
+        <type>AutoNumber</type>
+        <displayFormat>SES-{0000}</displayFormat>
+    </nameField>
+</CustomObject>

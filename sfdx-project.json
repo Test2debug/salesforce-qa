@@ -1,0 +1,12 @@
+{
+  "packageDirectories": [
+    {
+      "path": "force-app",
+      "default": true
+    }
+  ],
+  "name": "fitcorp",
+  "namespace": "",
+  "sfdcLoginUrl": "https://mindful-otter-ce9khx-dev-ed.trailblaze.my.salesforce.com",
+  "sourceApiVersion": "67.0"
+}

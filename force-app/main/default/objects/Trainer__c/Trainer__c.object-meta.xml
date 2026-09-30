@@ -1,0 +1,14 @@
+<?xml version='1.0' encoding='utf-8'?>
+<CustomObject xmlns="http://soap.sforce.com/2006/04/metadata">
+    <label>Trainer</label>
+    <pluralLabel>Trainers</pluralLabel>
+    <deploymentStatus>Deployed</deploymentStatus>
+    <sharingModel>Private</sharingModel>
+    <enableActivities>true</enableActivities>
+    <enableReports>true</enableReports>
+    <enableSearch>true</enableSearch>
+    <nameField>
+        <label>Trainer Name</label>
+        <type>Text</type>
+    </nameField>
+</CustomObject>

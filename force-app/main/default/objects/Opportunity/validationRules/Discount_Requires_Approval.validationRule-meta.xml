@@ -1,0 +1,7 @@
+<?xml version='1.0' encoding='utf-8'?>
+<ValidationRule xmlns="http://soap.sforce.com/2006/04/metadata">
+    <fullName>Discount_Requires_Approval</fullName>
+    <active>true</active>
+    <errorConditionFormula>AND(Discount__c &gt; 0.20, NOT(ISPICKVAL(Discount_Approval_Status__c, 'Approved')))</errorConditionFormula>
+    <errorMessage>Discounts above 20% require approval.</errorMessage>
+</ValidationRule>
